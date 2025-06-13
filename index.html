@@ -1,84 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loops Eyes Apps</title>
+  <title>تطبيقات Loops Eyes</title>
   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Cairo', sans-serif;
       margin: 0;
-      background: #f4f4f4;
-      color: #333;
+      background: #f5f5f5;
+      color: #222;
+      direction: rtl;
     }
 
     header {
-      background: #343a40;
-      color: white;
-      padding: 1.5em;
+      background-color: #222;
+      color: #fff;
       text-align: center;
+      padding: 2em 1em;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
     }
 
     .container {
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
       justify-content: center;
       padding: 2em;
+      gap: 20px;
     }
 
     .app-card {
-      background: white;
+      background-color: #fff;
       border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      width: 260px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      padding: 1em;
       text-align: center;
       transition: transform 0.2s;
     }
 
     .app-card:hover {
-      transform: scale(1.03);
-    }
-
-    .app-card img {
-      width: 100px;
-      height: 100px;
-      margin-top: 20px;
-      border-radius: 16px;
+      transform: translateY(-5px);
     }
 
     .app-card h3 {
-      margin: 0.5em 0;
-    }
-
-    .app-card p {
-      font-size: 0.9em;
-      padding: 0 1em;
+      margin-bottom: 0.5em;
     }
 
     .app-card a {
       display: inline-block;
-      margin: 1em 0;
-      padding: 0.5em 1.5em;
-      background: #007bff;
+      margin-top: 1em;
+      padding: 0.5em 1.2em;
+      background-color: #007bff;
       color: white;
       text-decoration: none;
       border-radius: 6px;
-      transition: background 0.3s;
     }
 
     .app-card a:hover {
-      background: #0056b3;
+      background-color: #0056b3;
     }
 
     footer {
       text-align: center;
       padding: 2em;
+      background-color: #eee;
+      color: #666;
       font-size: 0.9em;
-      background: #eee;
-      color: #777;
     }
   </style>
 </head>
@@ -86,29 +80,26 @@
 <body>
   <header>
     <h1>تطبيقات Loops Eyes</h1>
-    <p>Explore our creative and offline Android apps</p>
+    <p>قم باكتشاف التطبيقات المميزة التي نقدمها</p>
   </header>
 
   <div class="container">
+    <!-- انسخ الكتلة التالية وعدل الاسم والرابط حسب التطبيق -->
     <div class="app-card">
-      <img src="https://play-lh.googleusercontent.com/QUvmKAB-r2bHYz9TG4Lq_fK7gBrWxLZtxdWKR5gaPt3qk1T4R-MsNYRyTi0xsn5Y4g=w240-h480-rw" alt="App Icon">
-      <h3>دعاء الجوشن الصغير</h3>
-      <p>تطبيق يحتوي على دعاء الجوشن الصغير كاملاً، قراءة واستماع بدون إنترنت.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.dua.aljoshanalsagheer">عرض التطبيق</a>
+      <h3>اسم التطبيق 1</h3>
+      <a href="#">رابط التطبيق</a>
     </div>
 
     <div class="app-card">
-      <img src="https://play-lh.googleusercontent.com/6eKnzGpK5RMn2AGliwmsk5Pb-pR49iGHaQU1dOj44ZxEuX1gVaVpZNO2HQ-EZkT2gg=w240-h480-rw" alt="App Icon">
-      <h3>طب الإمام علي (ع)</h3>
-      <p>كتاب يحتوي على الوصفات والأدعية المأثورة عن الإمام علي (ع) في الطب والعلاج.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.imamalitibb.book">عرض التطبيق</a>
+      <h3>اسم التطبيق 2</h3>
+      <a href="#">رابط التطبيق</a>
     </div>
 
-    <!-- يمكنك إضافة المزيد من التطبيقات هنا -->
+    <!-- يمكنك إضافة المزيد من التطبيقات بنفس الشكل -->
   </div>
 
   <footer>
-    &copy; 2025 Loops Eyes — جميع الحقوق محفوظة.
+    &copy; 2025 Loops Eyes - جميع الحقوق محفوظة.
   </footer>
 </body>
 
